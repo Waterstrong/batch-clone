@@ -5,6 +5,7 @@ https://github.com/itstudieren/ThoughtWorksFinalTest.git
 https://github.com/peterhp/CashSystem
 https://github.com/Yasic/HomeWork
 https://github.com/Meihualu/meiqianzheng-iOSApp
+https://github.com/uniblackfire/meiqianzheng-backend
 https://github.com/wangfeng0621/CashRegister
 https://github.com/Summer-Dong/shoppingFrontend.git
 https://github.com/bsdfzzzy/Shop
