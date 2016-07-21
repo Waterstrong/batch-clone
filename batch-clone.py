@@ -21,7 +21,11 @@ for line in file:
     if line:
         line_number += 1
         print ('==========Processing clone project {}: {}=========='.format(line_number, line))
-        call(['git', 'clone', line], cwd=repository)
+        project_name = path.basename(line)
+        project_name = path.splitext(project_name)[0]
+        project_path = path.dirname(line)
+        author_name = path.basename(project_path)
+        call(['git', 'clone', line, '{}+{}'.format(author_name, project_name)], cwd=repository)
         print
 
 print 'Totally processed {} projects'.format(line_number)
