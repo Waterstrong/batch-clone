@@ -1,1 +1,1 @@
-# batch-clone
+## batch-clone: git clone remote repositories in batch#### Run script without argv, default is `homework.txt`Each repository should be **single line** in `homework.txt````python batch-clone.py```#### Run script with argv `new.txt````python batch-clone.py new.txt```----##### All repositories will be cloned into `homework` directory

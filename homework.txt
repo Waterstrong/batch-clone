@@ -1,5 +1,4 @@
 https://github.com/waterstrong/ansible-workshop
 https://github.com/Waterstrong/java8-lambda
-https://github.com/Waterstrong/cagister.git
 
-https://github.com/Waterstrong/pub-key
+https://github.com/Waterstrong/cyber-dojo.git
