@@ -1,4 +1,10 @@
-https://github.com/waterstrong/ansible-workshop
-https://github.com/Waterstrong/java8-lambda
-
-https://github.com/Waterstrong/cyber-dojo.git
+https://github.com/TWatermelon/thought-pos.git
+https://github.com/jlyeminem/Pos-java
+https://github.com/LindseyZhang/twfinal.git
+https://github.com/itstudieren/ThoughtWorksFinalTest.git
+https://github.com/peterhp/CashSystem
+https://github.com/Yasic/HomeWork
+https://github.com/Meihualu/meiqianzheng-iOSApp
+https://github.com/wangfeng0621/CashRegister
+https://github.com/Summer-Dong/shoppingFrontend.git
+https://github.com/bsdfzzzy/Shop
