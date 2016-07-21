@@ -8,4 +8,5 @@ https://github.com/Meihualu/meiqianzheng-iOSApp
 https://github.com/uniblackfire/meiqianzheng-backend
 https://github.com/wangfeng0621/CashRegister
 https://github.com/Summer-Dong/shoppingFrontend.git
+https://github.com/Summer-Dong/shoppingBackend.git
 https://github.com/bsdfzzzy/Shop
