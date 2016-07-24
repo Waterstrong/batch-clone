@@ -20,12 +20,10 @@ for line in file:
     line = line.strip('\n')
     if line:
         line_number += 1
-        print ('==========Processing clone project {}: {}=========='.format(line_number, line))
-        project_name = path.basename(line)
-        project_name = path.splitext(project_name)[0]
-        project_path = path.dirname(line)
-        author_name = path.basename(project_path)
-        call(['git', 'clone', line, '{}+{}'.format(author_name, project_name)], cwd=repository)
+        print ('==========Processing clone/pull project {}: {}=========='.format(line_number, line))
+        target_folder = '{}+{}'.format(path.basename(path.dirname(line)), path.splitext(path.basename(line))[0])
+        target_path = '{}/{}'.format(repository, target_folder)
+        call(['git', 'pull', '-r'], cwd=target_path) if path.isdir(target_path) else call(['git', 'clone', line, target_folder], cwd=repository)
         print
 
 print 'Totally processed {} projects'.format(line_number)
